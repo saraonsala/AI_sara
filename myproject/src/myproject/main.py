@@ -6,6 +6,10 @@ from myproject.crew import MyprojectCrew
 # crew locally, so refrain from adding necessary logic into this file.
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
+#!/usr/bin/env python
+# src/latest_ai_development/main.py
+
+
 
 def run():
     """

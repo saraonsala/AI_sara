@@ -10,8 +10,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import SerperDevTool
 
 @CrewBase
-class LatestAiDevelopmentCrew():
-  """LatestAiDevelopment crew"""
+class MyprojectCrew():
 
   @agent
   def researcher(self) -> Agent:
