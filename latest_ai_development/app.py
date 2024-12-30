@@ -1,5 +1,6 @@
 import streamlit as st
 import yaml
+from crew import CrewBase, agent, crew, task    # Importerar dekoreringsfunktionerna från crew.py
 
 # Läs YAML-filen
 try:
@@ -22,7 +23,7 @@ def show_agent_info(agent_name, agent_info):
 # Streamlit-app
 st.title("Agent Information")
 
-if agents:
+if agent:
     for agent_name, agent_info in agents.items():
         show_agent_info(agent_name, agent_info)
 else:
