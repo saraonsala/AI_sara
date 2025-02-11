@@ -7,6 +7,8 @@ from latest_ai_development.crew import LatestAiDevelopmentCrew
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
 
+
+
 def run():
     """
     Run the crew.

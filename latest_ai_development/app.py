@@ -1,7 +1,12 @@
 import streamlit as st
 import yaml
 from crew import CrewBase, agent, crew, task    # Importerar dekoreringsfunktionerna från crew.py
+ # Importerar Config-klassen från config.py
+import yaml
 
+agents = yaml.safe_load(open("agents.yaml", "r"))
+
+# Now you can use the `agents` variable which contains the data from the YAML file
 # Läs YAML-filen
 try:
     with open('agents.yaml', 'r') as file:
